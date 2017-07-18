@@ -1,4 +1,6 @@
 var request = require("request");
+var keys = require("./keys.js");
+
 
 // Then run a request to the OMDB API with the movie specified
 request("http://www.omdbapi.com/?t=remember+the+titans&y=&plot=short&apikey=40e9cece", function(error, response, body) {
